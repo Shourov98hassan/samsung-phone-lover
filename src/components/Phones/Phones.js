@@ -84,6 +84,7 @@ const Phones = () => {
                <br />
 
                <span className='answer1'>State:</span>
+               1.The Data is passed within the component only.
             
 
 
