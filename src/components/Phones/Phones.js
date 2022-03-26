@@ -78,6 +78,7 @@ const Phones = () => {
                1.The Data is passed from one component to another.
                2.It is Immutable (cannot be modified).
                3.Props can be used with state and functional components.
+               4.Props are read-only.
             
                <br />
                <br />
