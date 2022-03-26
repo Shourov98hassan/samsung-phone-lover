@@ -1,0 +1,36 @@
+.phones-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.phone-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.cart-container{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.answer1{
+    color:brown;
+}
+
+@media screen and (max-width:576px){
+   
+    .cart-container{
+        grid-template-columns: repeat(3,1fr);
+        
+        height: 400px;
+        width:200px;
+    }
+    .phone-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+

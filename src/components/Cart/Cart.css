@@ -1,0 +1,33 @@
+.cart{
+    position:sticky;
+    top: 0;
+}
+
+.choose-btn{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 1rem;
+}
+
+.reset{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.choose-btn:hover{
+    background-color: crimson;
+    color: white;
+}
+
+.reset:hover{
+    background-color: crimson;
+    color: white;
+}
