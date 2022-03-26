@@ -86,6 +86,8 @@ const Phones = () => {
                <span className='answer1'>State:</span>
                1.The Data is passed within the component only.
                2.It is Mutable ( can be modified).
+               3.State can be used only with the state components/class component (Before 16.0).
+               4.State is both read and write.
             
 
 
